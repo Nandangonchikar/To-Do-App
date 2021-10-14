@@ -14,7 +14,7 @@ function addClicked() {
 
 function markDone(item)
 {
-  item.class="TickClicked";
+  item.className="TickClicked";
 }
 
 function remove(item)
