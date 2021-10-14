@@ -1,0 +1,64 @@
+h1{
+  font-family: Calibri;
+  text-align:center;
+  }
+ul{
+  padding:0px;
+}
+#Appbody{
+  width: 50%;
+  margin:auto;
+  background-color: rgb(224, 235, 235);
+  border-radius: 15px;
+  padding:0 5%;
+  }
+#AddTask{
+  font-size:15px;
+  border-radius:10px;
+  background-color:#eee;
+  width: 50%;
+  height:10%;
+  }
+
+.buttons{
+  border-radius:10px;
+  width:6%;
+  background-color:rgb(179, 255, 179);
+}
+
+.remove{
+background-color:red;  
+}
+
+.done{
+  background-color:green;
+}
+li {
+  font-family: calibri;
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #c3c3c3;
+  padding: 15px 5px 10px 5px;
+  border-radius:10px;
+}
+
+li.TickClicked{
+  text-decoration:line-through;
+}
+
+li.green{
+   font-family: calibri;
+  font-size:1em;
+}
+
+input[type="Button"]
+{
+   font-size: 1.2em;
+  margin: -6px 4px 0px 0px;
+}
+
+input[type="Text"]
+{
+   font-size: 1.2em;
+  margin: -6px 4px 0px 0px;
+}
